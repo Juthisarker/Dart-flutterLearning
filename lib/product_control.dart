@@ -8,7 +8,7 @@ final Function addProduct;
   return RaisedButton(
             color: Theme.of(context).primaryColor,
             onPressed: () {
-            addProduct('sweets');
+            addProduct({'title':'Chocolate','image':'assets/food.jpg'});
 
             },
             child: Text('Add product'),
